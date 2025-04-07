@@ -8,11 +8,11 @@ app.get('/' , (req,res) =>{
 })
 
 app.get('/instagram',(req,res)=>{
-    res.send('Vikash Maurya')
+    res.send('Vikash cxvcMaurya')
 })
 
 app.get('/login',(req,res)=>{
-    res.send('<h1>Login Here </h1>')
+    res.send('<h1>Please Login Here </h1>')
 })
 app.listen(process.env.PORT ,()=>{
     console.log(`Example app ${port}`)

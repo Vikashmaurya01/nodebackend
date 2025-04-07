@@ -8,7 +8,7 @@ app.get('/' , (req,res) =>{
 })
 
 app.get('/instagram',(req,res)=>{
-    res.send('Vikash cxvcMaurya')
+    res.send('Vikash ')
 })
 
 app.get('/login',(req,res)=>{
